@@ -4,9 +4,9 @@ VDel è un'applicazione per cancellare dei File o una intera Cartella in modo ir
 
 VDel usa Lazarus come compilatore e i seguenti packages (hai bisogno di installarli prima di poter compilare)
 
-- MaxM Commons at https://github.com/
+- MaxM Commons at https://github.com/maxm74/MaxM/tree/main/Commons
 
-=======================================================================================================
+=============================================================================
 
 VDel is an application to delete Files or an entire Folder irrecoverably (the so-called File Shredder)
 
@@ -14,7 +14,7 @@ VDel is an application to delete Files or an entire Folder irrecoverably (the so
 
 VDel uses Lazarus as compiler and the following packages (you need to install them before you can compile)
 
-- MaxM Commons at https://github.com/
+- MaxM Commons at https://github.com/maxm74/MaxM/tree/main/Commons
 
 
 (c) 2024 Massimo Magnano.
