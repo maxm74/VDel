@@ -6,7 +6,7 @@ VDel usa Lazarus come compilatore e i seguenti packages (hai bisogno di installa
 
 - MaxM Commons at https://github.com/maxm74/MaxM/tree/main/Commons
 
-=============================================================================
+===========================================================================
 
 VDel is an application to delete Files or an entire Folder irrecoverably (the so-called File Shredder)
 
