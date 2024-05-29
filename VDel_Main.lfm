@@ -1,0 +1,398 @@
+object VDelMain: TVDelMain
+  Left = 331
+  Height = 460
+  Top = 127
+  Width = 449
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'VDel'
+  ClientHeight = 460
+  ClientWidth = 449
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Position = poScreenCenter
+  LCLVersion = '3.99.0.0'
+  Scaled = False
+  OnCreate = FormCreate
+  OnShow = FormShow
+  object gbOptions: TGroupBox
+    Left = 0
+    Height = 265
+    Top = 152
+    Width = 441
+    Caption = ' Opzioni '
+    ClientHeight = 247
+    ClientWidth = 437
+    ParentBackground = False
+    TabOrder = 0
+    object Label2: TLabel
+      Left = 279
+      Height = 13
+      Top = 224
+      Width = 68
+      Caption = 'sconsigliato'
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label1: TLabel
+      Left = 279
+      Height = 13
+      Top = 153
+      Width = 68
+      Caption = 'sconsigliato'
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object btFillChar: TSpeedButton
+      Left = 209
+      Height = 20
+      Top = 101
+      Width = 20
+      Glyph.Data = {
+        36030000424D3603000000000000360000002800000010000000100000000100
+        18000000000000030000880B0000880B00000000000000000000E2EFF1E2EFF1
+        E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EF
+        F1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2
+        EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1
+        E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EF
+        F1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2
+        EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1
+        E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EF
+        F1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF100
+        0000000000E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1
+        E2EFF1E2EFF1E2EFF1E2EFF1000000000000000000000000E2EFF1E2EFF1E2EF
+        F1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF100000000000000
+        0000000000000000000000E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1
+        E2EFF1E2EFF1000000000000000000000000000000000000000000000000E2EF
+        F1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF100000000000000000000000000
+        0000000000000000000000000000000000E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1
+        E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EF
+        F1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2
+        EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1
+        E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EF
+        F1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2
+        EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1
+        E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EF
+        F1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2
+        EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1
+      }
+      OnClick = btFillCharClick
+    end
+    object btRenameChar: TSpeedButton
+      Left = 209
+      Height = 20
+      Top = 126
+      Width = 20
+      Glyph.Data = {
+        36030000424D3603000000000000360000002800000010000000100000000100
+        18000000000000030000880B0000880B00000000000000000000E2EFF1E2EFF1
+        E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EF
+        F1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2
+        EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1
+        E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EF
+        F1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2
+        EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1
+        E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EF
+        F1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF100
+        0000000000E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1
+        E2EFF1E2EFF1E2EFF1E2EFF1000000000000000000000000E2EFF1E2EFF1E2EF
+        F1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF100000000000000
+        0000000000000000000000E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1
+        E2EFF1E2EFF1000000000000000000000000000000000000000000000000E2EF
+        F1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF100000000000000000000000000
+        0000000000000000000000000000000000E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1
+        E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EF
+        F1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2
+        EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1
+        E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EF
+        F1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2
+        EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1
+        E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EF
+        F1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2
+        EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1E2EFF1
+      }
+      OnClick = btRenameCharClick
+    end
+    object lbFill: TLabel
+      Left = 232
+      Height = 13
+      Top = 104
+      Width = 12
+      Caption = ':   '
+    end
+    object lbRename: TLabel
+      Left = 232
+      Height = 13
+      Top = 128
+      Width = 12
+      Caption = ':   '
+    end
+    object cbConfirm: TCheckBox
+      Left = 16
+      Height = 17
+      Top = 32
+      Width = 109
+      Caption = 'Richiesta conferma'
+      Checked = True
+      State = cbChecked
+      TabOrder = 0
+    end
+    object cbRecursive: TCheckBox
+      Left = 16
+      Height = 17
+      Top = 56
+      Width = 149
+      Caption = 'Ricorsione di tutte le SubDir'
+      Checked = True
+      State = cbChecked
+      TabOrder = 1
+    end
+    object cbRemoveDir: TCheckBox
+      Left = 16
+      Height = 17
+      Top = 80
+      Width = 146
+      Caption = 'Rimuovi Directory se Vuota'
+      Checked = True
+      State = cbChecked
+      TabOrder = 2
+    end
+    object cbFill: TCheckBox
+      Left = 16
+      Height = 17
+      Top = 104
+      Width = 134
+      Caption = 'Cancella riempiendo con'
+      Checked = True
+      State = cbChecked
+      TabOrder = 3
+    end
+    object edFill: TEdit
+      Left = 183
+      Height = 21
+      Hint = '? = Casuale'
+      Top = 101
+      Width = 25
+      MaxLength = 1
+      TabOrder = 4
+      Text = 'V'
+    end
+    object cbRename: TCheckBox
+      Left = 16
+      Height = 17
+      Top = 128
+      Width = 103
+      Caption = 'Rinomina usando '
+      Checked = True
+      State = cbChecked
+      TabOrder = 5
+    end
+    object edRename: TEdit
+      Left = 183
+      Height = 21
+      Hint = '? = Casuale'
+      Top = 126
+      Width = 25
+      MaxLength = 1
+      TabOrder = 6
+      Text = 'V'
+    end
+    object cbAttr: TCheckBox
+      Left = 16
+      Height = 17
+      Top = 152
+      Width = 121
+      Caption = 'Assegna Nuovo Attrib'
+      TabOrder = 7
+    end
+    object cbDate: TCheckBox
+      Left = 16
+      Height = 17
+      Top = 176
+      Width = 88
+      Caption = 'Assegna Data '
+      TabOrder = 8
+    end
+    object edDate: TDateTimePicker
+      Left = 183
+      Height = 21
+      Top = 174
+      Width = 83
+      CenturyFrom = 1941
+      MaxDate = 2958465
+      MinDate = 29221
+      TabOrder = 9
+      TrailingSeparator = False
+      TextForNullDate = 'NULL'
+      LeadingZeros = True
+      Kind = dtkDate
+      TimeFormat = tf24
+      TimeDisplay = tdHMS
+      DateMode = dmComboBox
+      Date = 38283
+      Time = 0.571747314817912
+      UseDefaultSeparators = True
+      HideDateTimeParts = []
+      MonthNames = 'Long'
+    end
+    object edTime: TDateTimePicker
+      Left = 183
+      Height = 21
+      Top = 197
+      Width = 65
+      CenturyFrom = 1941
+      MaxDate = 2958465
+      MinDate = -53780
+      TabOrder = 10
+      TrailingSeparator = False
+      TextForNullDate = 'NULL'
+      LeadingZeros = True
+      Kind = dtkTime
+      TimeFormat = tf24
+      TimeDisplay = tdHMS
+      DateMode = dmComboBox
+      Date = 38283
+      Time = 0.57272406249831
+      UseDefaultSeparators = True
+      HideDateTimeParts = []
+      MonthNames = 'Long'
+    end
+    object cbTime: TCheckBox
+      Left = 16
+      Height = 17
+      Top = 197
+      Width = 88
+      Caption = 'Assegna Time '
+      TabOrder = 11
+    end
+    object cbResize: TCheckBox
+      Left = 16
+      Height = 17
+      Top = 222
+      Width = 90
+      Caption = 'Ridimensiona a'
+      TabOrder = 12
+    end
+    object edResize: TSpinEdit
+      Left = 183
+      Height = 21
+      Top = 220
+      Width = 89
+      TabOrder = 13
+    end
+    object edAttr: TSpinEdit
+      Left = 183
+      Height = 21
+      Top = 149
+      Width = 89
+      TabOrder = 14
+    end
+    object btPredefOpt: TButton
+      Left = 16
+      Height = 25
+      Top = 4
+      Width = 75
+      Caption = '&Predefinite'
+      TabOrder = 15
+      Visible = False
+    end
+    object btWriteOpt: TButton
+      Left = 96
+      Height = 25
+      Top = 4
+      Width = 75
+      Caption = 'Salva Opzioni'
+      TabOrder = 16
+      OnClick = WriteOptionsClick
+    end
+  end
+  object pnMain: TPanel
+    Left = 0
+    Height = 152
+    Top = 0
+    Width = 449
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 152
+    ClientWidth = 449
+    ParentBackground = False
+    TabOrder = 1
+    object lbMessage: TLabel
+      Left = 0
+      Height = 48
+      Top = 0
+      Width = 449
+      Align = alTop
+      Alignment = taCenter
+      AutoSize = False
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object clistFiles: TCheckListBox
+      Left = 9
+      Height = 90
+      Top = 55
+      Width = 383
+      ItemHeight = 0
+      TabOrder = 0
+    end
+    object Button1: TButton
+      Left = 392
+      Height = 25
+      Top = 55
+      Width = 50
+      Caption = '+ Files'
+      TabOrder = 1
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Left = 392
+      Height = 25
+      Top = 83
+      Width = 50
+      Caption = '+ Dir'
+      TabOrder = 2
+      OnClick = Button2Click
+    end
+  end
+  object btCancel: TButton
+    Left = 224
+    Height = 25
+    Top = 424
+    Width = 75
+    Caption = '&Annulla'
+    TabOrder = 2
+    OnClick = btCancelClick
+  end
+  object GO: TButton
+    Left = 138
+    Height = 25
+    Top = 424
+    Width = 75
+    Caption = 'GO'
+    TabOrder = 3
+    OnClick = btGoClick
+  end
+  object OpenDialog: TOpenDialog
+    Filter = 'All Files (*.*)|*.*'
+    Options = [ofAllowMultiSelect, ofFileMustExist, ofEnableSizing, ofViewDetail]
+    Left = 400
+    Top = 114
+  end
+  object SelectDirectoryDialog: TSelectDirectoryDialog
+    Options = [ofAllowMultiSelect, ofFileMustExist, ofEnableSizing, ofViewDetail]
+    Left = 400
+    Top = 168
+  end
+end

@@ -1,0 +1,63 @@
+object VDELConfirm: TVDELConfirm
+  Left = 258
+  Height = 192
+  Top = 176
+  Width = 434
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'VDELConfirm'
+  ClientHeight = 192
+  ClientWidth = 434
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Position = poScreenCenter
+  LCLVersion = '3.99.0.0'
+  object cbUserSubDir: TCheckBox
+    Left = 16
+    Height = 17
+    Top = 104
+    Width = 149
+    Caption = 'Ricorsione di tutte le SubDir'
+    Checked = True
+    State = cbChecked
+    TabOrder = 0
+  end
+  object btGo: TButton
+    Left = 131
+    Height = 25
+    Top = 160
+    Width = 75
+    Caption = '&Ok'
+    ModalResult = 1
+    TabOrder = 1
+  end
+  object btCancel2: TButton
+    Left = 211
+    Height = 25
+    Top = 160
+    Width = 75
+    Caption = '&Annulla'
+    ModalResult = 2
+    TabOrder = 2
+  end
+  object mMessage: TMemo
+    Left = 8
+    Height = 89
+    Top = 8
+    Width = 417
+    Color = clBtnFace
+    TabOrder = 3
+  end
+  object cbUserRemoveDir: TCheckBox
+    Left = 16
+    Height = 17
+    Top = 128
+    Width = 146
+    Caption = 'Rimuovi Directory se Vuota'
+    Checked = True
+    State = cbChecked
+    TabOrder = 4
+  end
+end

@@ -1,0 +1,2 @@
+Aggiustare il cambiamento del nome : Resta  il nome nel formato 8.3 
+Provare con file > 2Gbyte (Int64)
