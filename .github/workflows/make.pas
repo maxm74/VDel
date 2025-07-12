@@ -213,7 +213,7 @@ begin
   try
     if ParamCount > 0 then
       case ParamStr(1) of
-        'build': BuildAll(['BGRAControls']);
+        'build': BuildAll(['BGRABitmap', 'BGRAControls']);
         else
           OutLog(etError, ParamStr(1));
       end;
