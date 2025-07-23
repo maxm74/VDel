@@ -64,6 +64,9 @@
     </RunParams>
     <RequiredPackages>
       <Item>
+        <PackageName Value="MaxM_Forms"/>
+      </Item>
+      <Item>
         <PackageName Value="MaxM_Commons"/>
       </Item>
       <Item>
