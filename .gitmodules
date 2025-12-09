@@ -1,3 +1,6 @@
 [submodule "use/MaxM"]
 	path = use/MaxM
 	url = git@github.com:maxm74/MaxM.git
+[submodule "use/bgracontrols"]
+	path = use/bgracontrols
+	url = git@github.com:bgrabitmap/bgracontrols.git
